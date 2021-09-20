@@ -16,3 +16,14 @@
     width: 110%;
   }
 }
+.navbarContainer {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.overlay {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+.intro h1 {
+  font-family: sans-serif !important;
+}
