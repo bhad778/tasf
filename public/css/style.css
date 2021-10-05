@@ -84,7 +84,6 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -162,6 +161,12 @@ hr {
 .section-title p {
   font-size: 18px;
 }
+.white-text {
+  color: white !important;
+}
+.dark-text {
+  color: black !important;
+}
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -207,9 +212,62 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 100vh;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
+}
+.img-text-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.logo-image-about {
+  box-shadow: none !important;
+}
+.t-winnie {
+  background: url(../img/t-winnie.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.pic2 {
+  background: url(../img/IMG_0532.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.pic3 {
+  background: url(../img/IMG_0758.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.pic4 {
+  background: url(../img/IMG_0976.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.pic5 {
+  background: url(../img/IMG_0280.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.pic6 {
+  background: url(../img/IMG_0018.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.pic7 {
+  background: url(../img/IMG_0704.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -239,10 +297,25 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+.donated-text {
+  font-size: 11rem;
+  color: white;
+  margin-bottom: 0;
+}
+.donated-sub-text {
+  font-size: 5rem;
+  color: white;
+  margin-top: 0;
+}
 header .intro-text {
   padding-top: 350px;
-  padding-bottom: 200px;
   text-align: center;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Features Section */
 #features {

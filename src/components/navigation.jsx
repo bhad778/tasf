@@ -1,4 +1,15 @@
+import { useState } from "react";
+import useWindowDimensions from "../dimensionsHook.js";
+
 export const Navigation = (props) => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const { height } = useWindowDimensions();
+
+  document.addEventListener("scroll", () => {
+    setScrollPosition(window.scrollY);
+  });
+
   return (
     <nav
       id="menu"
@@ -17,7 +28,13 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a
+            className={
+              "navbar-brand page-scroll " +
+              (scrollPosition > height - 50 ? "dark-text" : "white-text")
+            }
+            href="#page-top"
+          >
             Taylor Ann Scott Foundation
           </a>
         </div>
@@ -28,12 +45,24 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll">
+              <a
+                href="#about"
+                className={
+                  "nav-bar-options page-scroll " +
+                  (scrollPosition > height - 50 ? "dark-text" : "white-text")
+                }
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a
+                href="#contact"
+                className={
+                  "nav-bar-options page-scroll " +
+                  (scrollPosition > height - 50 ? "dark-text" : "white-text")
+                }
+              >
                 Contact
               </a>
             </li>
