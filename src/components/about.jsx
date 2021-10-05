@@ -5,7 +5,7 @@ export const About = (props) => {
         <div className="row img-text-container">
           <div className="col-xs-12 col-md-6">
             <img
-              src="img/logo.jpg"
+              src="https://i.ibb.co/XFbrk81/Taylor-Ann-Scott-Foundation-Logo-Final-01.jpg"
               className="img-responsive logo-image-about"
               alt=""
             />

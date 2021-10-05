@@ -29,14 +29,7 @@ export const Header = (props) => {
           id="myform"
         >
           <input type="hidden" name="hosted_button_id" value="G53CWKDTVBZDU" />
-          {/* <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                    border="0"
-                    name="submit"
-                    title="PayPal - The safer, easier way to pay online!"
-                    alt="Donate with PayPal button"
-                  /> */}
+
           <img
             alt=""
             border="0"
@@ -47,12 +40,9 @@ export const Header = (props) => {
         </form>
       </div>
       <Slider {...settings}>
-        <div class="intro pic3"></div>
-        <div class="intro pic6"></div>
+        <div class="intro pic1"></div>
         <div class="intro pic2"></div>
-        {/* <div class="intro pic4"></div> */}
-        {/* <div class="intro pic5"></div> */}
-        {/* <div class="intro pic7"></div> */}
+        <div class="intro pic3"></div>
       </Slider>
     </header>
   );

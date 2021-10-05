@@ -224,50 +224,25 @@ a:focus,
 .logo-image-about {
   box-shadow: none !important;
 }
-.t-winnie {
-  background: url(../img/t-winnie.jpg) center center no-repeat;
+.pic1 {
+  background: url("https://i.ibb.co/hD1gvwM/IMG-0758.jpg") center center
+    no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .pic2 {
-  background: url(../img/IMG_0532.jpg) center center no-repeat;
+  background: url("https://i.ibb.co/qYDH7MV/IMG-0018.jpg") center center
+    no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .pic3 {
-  background: url(../img/IMG_0758.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.pic4 {
-  background: url(../img/IMG_0976.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.pic5 {
-  background: url(../img/IMG_0280.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.pic6 {
-  background: url(../img/IMG_0018.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.pic7 {
-  background: url(../img/IMG_0704.jpg) center center no-repeat;
+  background: url("https://i.ibb.co/G33jj2c/IMG-0532.jpg") center center
+    no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
