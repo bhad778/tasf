@@ -57,7 +57,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a
-                href="#events"
+                href="#services"
                 className={
                   "nav-bar-options page-scroll " +
                   (scrollPosition > height - 50 ? "dark-text" : "white-text")
@@ -68,7 +68,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a
-                href="#missionStatement"
+                href="#features"
                 className={
                   "nav-bar-options page-scroll " +
                   (scrollPosition > height - 50 ? "dark-text" : "white-text")
