@@ -3,7 +3,7 @@
     padding: 20px;
     width: 111%;
   }
-  #about,
+  #events,
   #services,
   #testimonials,
   #team,
@@ -26,4 +26,9 @@
 }
 .intro h1 {
   font-family: sans-serif !important;
+}
+.events-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

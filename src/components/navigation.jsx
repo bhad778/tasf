@@ -52,7 +52,29 @@ export const Navigation = (props) => {
                   (scrollPosition > height - 50 ? "dark-text" : "white-text")
                 }
               >
-                About
+                Our Story
+              </a>
+            </li>
+            <li>
+              <a
+                href="#events"
+                className={
+                  "nav-bar-options page-scroll " +
+                  (scrollPosition > height - 50 ? "dark-text" : "white-text")
+                }
+              >
+                Events
+              </a>
+            </li>
+            <li>
+              <a
+                href="#missionStatement"
+                className={
+                  "nav-bar-options page-scroll " +
+                  (scrollPosition > height - 50 ? "dark-text" : "white-text")
+                }
+              >
+                Mission Statement
               </a>
             </li>
             <li>
