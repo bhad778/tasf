@@ -40,9 +40,9 @@ export const Header = (props) => {
         </form>
       </div>
       <Slider {...settings}>
-        <div class="intro pic1"></div>
-        <div class="intro pic2"></div>
-        <div class="intro pic3"></div>
+        <div className="intro pic1"></div>
+        <div className="intro pic2"></div>
+        <div className="intro pic3"></div>
       </Slider>
     </header>
   );
