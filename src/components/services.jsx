@@ -32,12 +32,18 @@ export const Services = (props) => {
               aria-describedby="modal-modal-description"
             >
               <Box class="eventModal">
-                <embed
-                  src="https://www.scribd.com/embeds/533951799/content?start_page=1&view_mode=scroll&access_key=key-YWFL4rFVowMgRCNYYFhq"
-                  frameborder="0"
+                <iframe
+                  class="scribd_iframe_embed"
+                  title="TASF TT2 1 Page"
+                  src="https://www.scribd.com/embeds/587049838/content?start_page=1&view_mode=scroll&access_key=key-9Xj7jKoW5IG21sp7ouGk"
+                  data-auto-height="false"
+                  data-aspect-ratio="0.7729220222793488"
+                  scrolling="no"
+                  id="doc_23631"
                   width="100%"
                   height="100%"
-                ></embed>
+                  frameborder="0"
+                ></iframe>
               </Box>
             </Modal>
           </div>
@@ -46,11 +52,7 @@ export const Services = (props) => {
         <div className="row events-container">
           {props.data
             ? props.data.map((d, i) => (
-                <div
-                  key={`${d.name}-${i}`}
-                  className="col-md-4 event"
-                  onClick={handleOpen}
-                >
+                <div key={`${d.name}-${i}`} className="col-md-4 event" onClick={handleOpen}>
                   <i className={d.icon}></i>
                   <div className="service-desc">
                     <p>{d.date}</p>

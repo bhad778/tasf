@@ -1,6 +1,13 @@
+import React, { useState } from "react";
+
 import Slider from "react-slick";
+import Modal from "@mui/material/Modal";
+import Box from "@mui/material/Box";
 
 export const Header = (props) => {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   var settings = {
     dots: true,
     autoplay: true,
@@ -13,30 +20,37 @@ export const Header = (props) => {
   return (
     <header id="header">
       <div className="col-md-8 col-md-offset-2 intro-text">
-        <h1 className="donated-text">$60,000</h1>
+        <h1 className="donated-text">$100,000</h1>
         <h6 className="donated-sub-text">Donated</h6>
-        <button
-          className="btn btn-custom btn-lg page-scroll"
-          type="submit"
-          form="myform"
-        >
+        <button className="btn btn-custom btn-lg page-scroll" type="submit" form="myform">
           Donate Now
         </button>
-        <form
-          action="https://www.paypal.com/donate"
-          method="post"
-          target="_top"
-          id="myform"
-        >
+
+        <h1 className="donation-letter-text" onClick={handleOpen}>
+          View 2021 Cancer Research Institute Donation Letter
+        </h1>
+
+        <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
+          <Box class="eventModal">
+            <iframe
+              class="scribd_iframe_embed"
+              title="TASF TT2 1 Page"
+              src="https://www.scribd.com/embeds/587051631/content?start_page=1&view_mode=scroll&access_key=key-m5lciIfjHkZvWo7sVpEI"
+              data-auto-height="false"
+              data-aspect-ratio="0.7729220222793488"
+              scrolling="no"
+              id="doc_23631"
+              width="100%"
+              height="100%"
+              frameborder="0"
+            ></iframe>
+          </Box>
+        </Modal>
+
+        <form action="https://www.paypal.com/donate" method="post" target="_top" id="myform">
           <input type="hidden" name="hosted_button_id" value="G53CWKDTVBZDU" />
 
-          <img
-            alt=""
-            border="0"
-            src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-            width="1"
-            height="1"
-          />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
         </form>
       </div>
       <Slider {...settings}>
