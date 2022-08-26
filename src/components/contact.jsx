@@ -1,5 +1,4 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 
 const initialState = {
   name: "",
@@ -18,9 +17,9 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     window.open(
-      `mailto:support@taylorannscottfoundation.com?subject=${encodeURIComponent(
-        "From: " + name
-      )}&body=${encodeURIComponent(message)}`
+      `mailto:support@taylorannscottfoundation.com?subject=${encodeURIComponent("From: " + name)}&body=${encodeURIComponent(
+        message
+      )}`
     );
   };
   return (
@@ -31,10 +30,7 @@ export const Contact = (props) => {
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+                <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
@@ -96,6 +92,27 @@ export const Contact = (props) => {
                   <i className="fa fa-envelope-o"></i> Email
                 </span>
                 {props.data ? props.data.email : "loading"}
+              </p>
+            </div>
+            <div
+              className="contact-item external-link"
+              // onClick={() => window.location.replace("https://instagram.com/taylorannscottfoundation?igshid=YmMyMTA2M2Y=")}
+            >
+              {" "}
+              <span>
+                <i className="fa fa-instagram"></i> Instagram
+              </span>
+              {props.data ? props.data.instagram : "loading"}
+            </div>
+            <div
+              className="contact-item external-link"
+              // onClick={() => window.location.replace("https://www.facebook.com/taylorannscottfoundation/")}
+            >
+              <p>
+                <span>
+                  <i className="fa fa-facebook"></i> Facebook
+                </span>
+                {props.data ? props.data.facebook : "loading"}
               </p>
             </div>
           </div>

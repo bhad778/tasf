@@ -5,25 +5,15 @@
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "Why": ["Lorem ipsum dolor", "Tempor incididunt", "Lorem ipsum dolor", "Incididunt ut labore"],
+    "Why2": ["Aliquip ex ea commodo", "Lorem ipsum dolor", "Exercitation ullamco", "Lorem ipsum dolor"]
   },
   "Services": [
     {
       "icon": "fa fa-group",
-      "date": "October 30th",
+      "date": "October 29th",
       "name": "Charity Tailgate",
-      "text": "A Tailgate benefitting the fight against cancer!"
+      "text": "The second annual tailgate benefitting the fight against cancer!"
     }
   ],
   "Testimonials": [
@@ -83,7 +73,9 @@
   "Contact": {
     "address": "817 Lookingglass Lane, Marietta, GA",
     "phone": "770 843 8388",
-    "email": "support@taylorannscottfoundation.com"
+    "email": "support@taylorannscottfoundation.com",
+    "instagram": "https://instagram.com/taylorannscottfoundation?igshid=YmMyMTA2M2Y=",
+    "facebook": "https://www.facebook.com/taylorannscottfoundation/"
   },
   "Features": [
     {

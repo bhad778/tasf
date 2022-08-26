@@ -34,14 +34,14 @@ export const Header = (props) => {
           <Box class="eventModal">
             <iframe
               class="scribd_iframe_embed"
-              title="TASF TT2 1 Page"
-              src="https://www.scribd.com/embeds/587051631/content?start_page=1&view_mode=scroll&access_key=key-m5lciIfjHkZvWo7sVpEI"
+              title="TASF TT2 1 Page-1"
+              src="https://www.scribd.com/embeds/589372448/content?start_page=1&view_mode=scroll&access_key=key-A0OxuXCcBgb7nYr1IcM8"
               data-auto-height="false"
               data-aspect-ratio="0.7729220222793488"
               scrolling="no"
-              id="doc_23631"
+              id="doc_10736"
               width="100%"
-              height="100%"
+              height="600"
               frameborder="0"
             ></iframe>
           </Box>
@@ -57,6 +57,15 @@ export const Header = (props) => {
         <div className="intro pic1"></div>
         <div className="intro pic2"></div>
         <div className="intro pic3"></div>
+        <div className="intro pic4"></div>
+        {/* <div className="intro pic5"></div>
+        <div className="intro pic6"></div>
+        <div className="intro pic7"></div>
+        <div className="intro pic8"></div>  */}
+        {/* <div className="intro pic9"></div>
+        <div className="intro pic10"></div>
+        <div className="intro pic11"></div>
+        <div className="intro pic12"></div> */}
       </Slider>
     </header>
   );
