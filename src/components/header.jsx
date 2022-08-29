@@ -58,14 +58,10 @@ export const Header = (props) => {
         <div className="intro pic2"></div>
         <div className="intro pic3"></div>
         <div className="intro pic4"></div>
-        {/* <div className="intro pic5"></div>
+        <div className="intro pic5"></div>
         <div className="intro pic6"></div>
         <div className="intro pic7"></div>
-        <div className="intro pic8"></div>  */}
-        {/* <div className="intro pic9"></div>
-        <div className="intro pic10"></div>
-        <div className="intro pic11"></div>
-        <div className="intro pic12"></div> */}
+        <div className="intro pic8"></div>
       </Slider>
     </header>
   );

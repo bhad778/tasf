@@ -96,9 +96,8 @@ export const Contact = (props) => {
             </div>
             <div
               className="contact-item external-link"
-              // onClick={() => window.location.replace("https://instagram.com/taylorannscottfoundation?igshid=YmMyMTA2M2Y=")}
+              onClick={() => window.location.assign("https://instagram.com/taylorannscottfoundation?igshid=YmMyMTA2M2Y=")}
             >
-              {" "}
               <span>
                 <i className="fa fa-instagram"></i> Instagram
               </span>
@@ -106,7 +105,7 @@ export const Contact = (props) => {
             </div>
             <div
               className="contact-item external-link"
-              // onClick={() => window.location.replace("https://www.facebook.com/taylorannscottfoundation/")}
+              onClick={() => window.location.assign("https://www.facebook.com/taylorannscottfoundation/")}
             >
               <p>
                 <span>
