@@ -37,9 +37,19 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .logo-img-container {
+    display: none;
+  }
+  .title {
+    font-size: 20 !important;
+  }
+}
+
 .event {
   cursor: pointer;
 }
+
 .eventModal {
   position: absolute;
   top: 50%;
