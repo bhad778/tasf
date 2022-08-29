@@ -34,14 +34,14 @@ export const Header = (props) => {
           <Box class="eventModal">
             <iframe
               class="scribd_iframe_embed"
-              title="TASF TT2 1 Page-1"
-              src="https://www.scribd.com/embeds/589372448/content?start_page=1&view_mode=scroll&access_key=key-A0OxuXCcBgb7nYr1IcM8"
+              title="TASF TT2 1 Page"
+              src="https://www.scribd.com/embeds/587051631/content?start_page=1&view_mode=scroll&access_key=key-m5lciIfjHkZvWo7sVpEI"
               data-auto-height="false"
               data-aspect-ratio="0.7729220222793488"
               scrolling="no"
-              id="doc_10736"
+              id="doc_23631"
               width="100%"
-              height="600"
+              height="100%"
               frameborder="0"
             ></iframe>
           </Box>
