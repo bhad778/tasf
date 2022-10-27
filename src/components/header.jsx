@@ -20,7 +20,7 @@ export const Header = (props) => {
   return (
     <header id="header">
       <div className="col-md-8 col-md-offset-2 intro-text">
-        <h1 className="donated-text">$100,000</h1>
+        <h1 className="donated-text">$150,000</h1>
         <h6 className="donated-sub-text">Donated</h6>
         <button className="btn btn-custom btn-lg page-scroll" type="submit" form="myform">
           Donate Now
