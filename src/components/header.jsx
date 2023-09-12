@@ -19,7 +19,7 @@ export const Header = (props) => {
   };
   return (
     <header id="header">
-      <div className="col-md-8 col-md-offset-2 intro-text">
+      <div className="intro-text">
         <h1 className="donated-text">$250,000</h1>
         <h6 className="donated-sub-text">Donated</h6>
         <button
@@ -31,7 +31,11 @@ export const Header = (props) => {
         </button>
 
         <h1 className="donation-letter-text" onClick={handleOpen}>
-          View 2021 Cancer Research Institute Donation Letter
+          This year, we are teaming up with the Cancer Research Institute for
+          the creation of Tailgate with a Purpose. This opportunity allows
+          anybody and anyone to participate in creating their own fundraising
+          tailgate in support of cancer research! Click here for more
+          information.
         </h1>
 
         <Modal
