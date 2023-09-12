@@ -42,7 +42,13 @@
     display: none;
   }
   .title {
-    font-size: 18 !important;
+    font-size: 14 !important;
+  }
+  .donated-text {
+    font-size: 7rem;
+  }
+  header .intro-text {
+    padding-top: 200px;
   }
 }
 
