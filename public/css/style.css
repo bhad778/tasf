@@ -211,7 +211,7 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 100%;
+  width: auto;
   height: 100vh;
   padding: 0;
   background-color: #e5e5e5;
@@ -225,61 +225,74 @@ a:focus,
   box-shadow: none !important;
 }
 .pic1 {
-  background: url("https://i.ibb.co/qjJP51v/IMG-8879.jpg") center center no-repeat;
+  background: url("https://i.imgur.com/xvq7YTZ.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .pic2 {
-  background: url("https://i.ibb.co/nkKvLMK/IMG-8871.jpg") center center no-repeat;
+  background: url("https://i.imgur.com/srb3ctt.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .pic3 {
-  background: url("https://i.ibb.co/BKDDnb2/IMG-8864.jpg") center center no-repeat;
+  background: url("https://i.imgur.com/MyP4nzl.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .pic4 {
-  background: url("https://i.ibb.co/qjjGRGP/IMG-8957.jpg") center center no-repeat;
+  background: url("https://i.imgur.com/gNboQ4m.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .pic5 {
-  background: url("https://i.ibb.co/x2J1jhb/IMG-8920.jpg") center center no-repeat;
+  background: url("https://i.imgur.com/FLVB3v6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-.pic6 {
-  background: url("https://i.ibb.co/kHz5Bd0/IMG-8904.jpg") center center no-repeat;
+/* .pic6 {
+  background: url("https://i.ibb.co/kHz5Bd0/IMG-8904.jpg") center center
+    no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .pic7 {
-  background: url("https://i.ibb.co/hD1gvwM/IMG-0758.jpg") center center no-repeat;
+  background: url("https://i.ibb.co/hD1gvwM/IMG-0758.jpg") center center
+    no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .pic8 {
-  background: url("https://i.ibb.co/qYDH7MV/IMG-0018.jpg") center center no-repeat;
+  background: url("https://i.ibb.co/qYDH7MV/IMG-0018.jpg") center center
+    no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
+} */
 /* .pic9 {
   background: url("https://i.ibb.co/zHXGbp2/IMG-8856.jpg") center center no-repeat;
   -webkit-background-size: cover;
@@ -482,7 +495,11 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(to right, rgba(99, 114, 255, 0.8) 0%, rgba(92, 169, 251, 0.8) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(99, 114, 255, 0.8) 0%,
+    rgba(92, 169, 251, 0.8) 100%
+  );
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
