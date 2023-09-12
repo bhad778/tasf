@@ -8,6 +8,7 @@ import { Features } from "./components/features";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { TailgateWithAPurpose } from "./components/tailgateWithAPurpose";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -27,6 +28,7 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Features data={landingPageData.Features} />
+      <TailgateWithAPurpose data={landingPageData.TailgateWithAPurpose} />
       <Contact data={landingPageData.Contact} />
     </div>
   );

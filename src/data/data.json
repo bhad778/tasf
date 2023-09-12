@@ -108,5 +108,17 @@
       "title": "Animal Welfare",
       "text": "Support of the humane treatment and care of animals. "
     }
+  ],
+  "TailgateWithAPurpose": [
+    {
+      "icon": "fa fa-heart",
+      "title": "Cancer Research",
+      "text": "Support of advanced research for a cure for cancer."
+    },
+    {
+      "icon": "fa fa-heartbeat",
+      "title": "Cancer Care",
+      "text": "Support caregivers and the network of people involved when a loved one receives a cancer diagnosis."
+    }
   ]
 }
