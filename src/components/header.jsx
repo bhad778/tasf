@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Slider from "react-slick";
-import Modal from "@mui/material/Modal";
-import Box from "@mui/material/Box";
+import Slider from 'react-slick';
+import Modal from '@mui/material/Modal';
+import Box from '@mui/material/Box';
 
 export const Header = (props) => {
   const [open, setOpen] = useState(false);
@@ -20,13 +20,9 @@ export const Header = (props) => {
   return (
     <header id="header">
       <div className="col-md-8 col-md-offset-2 intro-text">
-        <h1 className="donated-text">$250,000</h1>
+        <h1 className="donated-text">$325,000</h1>
         <h6 className="donated-sub-text">Donated</h6>
-        <button
-          className="btn btn-custom btn-lg page-scroll"
-          type="submit"
-          form="myform"
-        >
+        <button className="btn btn-custom btn-lg page-scroll" type="submit" form="myform">
           Donate Now
         </button>
 
@@ -56,21 +52,10 @@ export const Header = (props) => {
           </Box>
         </Modal>
 
-        <form
-          action="https://www.paypal.com/donate"
-          method="post"
-          target="_top"
-          id="myform"
-        >
+        <form action="https://www.paypal.com/donate" method="post" target="_top" id="myform">
           <input type="hidden" name="hosted_button_id" value="G53CWKDTVBZDU" />
 
-          <img
-            alt=""
-            border="0"
-            src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-            width="1"
-            height="1"
-          />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
         </form>
       </div>
       <Slider {...settings}>

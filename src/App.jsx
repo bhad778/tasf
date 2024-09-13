@@ -1,14 +1,13 @@
-import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Contact } from "./components/contact";
-import { Features } from "./components/features";
-import JsonData from "./data/data.json";
-import SmoothScroll from "smooth-scroll";
-import "./App.css";
-import { TailgateWithAPurpose } from "./components/tailgateWithAPurpose";
+import { useState, useEffect } from 'react';
+import { Navigation } from './components/navigation';
+import { Header } from './components/header';
+import { About } from './components/about';
+import { Services } from './components/services';
+import { Contact } from './components/contact';
+import { Features } from './components/features';
+import JsonData from './data/data.json';
+import SmoothScroll from 'smooth-scroll';
+import './App.css';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -28,7 +27,7 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Features data={landingPageData.Features} />
-      <TailgateWithAPurpose data={landingPageData.TailgateWithAPurpose} />
+      {/* <TailgateWithAPurpose data={landingPageData.TailgateWithAPurpose} /> */}
       <Contact data={landingPageData.Contact} />
     </div>
   );

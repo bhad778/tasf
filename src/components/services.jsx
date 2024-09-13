@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Modal from "@mui/material/Modal";
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+import Modal from '@mui/material/Modal';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
-import { Document, Page, pdfjs } from "react-pdf";
+import { Document, Page, pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export const Services = (props) => {
@@ -35,7 +35,7 @@ export const Services = (props) => {
                 <iframe
                   class="scribd_iframe_embed"
                   title="TASF TT2 1 Page"
-                  src="https://www.scribd.com/embeds/670800146/content?start_page=1&view_mode=scroll&access_key=key-9Xj7jKoW5IG21sp7ouGk"
+                  src="https://www.scribd.com/embeds/768821016/content?start_page=1&view_mode=scroll&access_key=key-gS3Ks3Vi6Mx94CoT9FMi"
                   data-auto-height="false"
                   data-aspect-ratio="0.7729220222793488"
                   scrolling="no"
@@ -52,11 +52,7 @@ export const Services = (props) => {
         <div className="row events-container">
           {props.data
             ? props.data.map((d, i) => (
-                <div
-                  key={`${d.name}-${i}`}
-                  className="col-md-4 event"
-                  onClick={handleOpen}
-                >
+                <div key={`${d.name}-${i}`} className="col-md-4 event" onClick={handleOpen}>
                   <i className={d.icon}></i>
                   <div className="service-desc">
                     <p>{d.date}</p>
@@ -65,7 +61,7 @@ export const Services = (props) => {
                   </div>
                 </div>
               ))
-            : "loading"}
+            : 'loading'}
         </div>
       </div>
     </div>
